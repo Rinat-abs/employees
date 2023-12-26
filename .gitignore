@@ -1,0 +1,9 @@
+node_modules
+# Keep environment variables out of version control
+.env
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+node_modules/
+client/node_modules
